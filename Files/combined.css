@@ -1,0 +1,149 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+}
+.wrapper {
+    width: 990px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    position: relative;
+}
+#content {
+    padding-top: 350px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    min-height: 350px;
+}
+.homepage #content {
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+#homepage .game-column {
+    position: relative;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 163px;
+    padding-top: 355px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+}
+a {
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    text-decoration: none;
+    color: rgb(0, 182, 255);
+}
+#homepage .game-promo {
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    left: 6px;
+    top: -95px;
+    width: 163px;
+    height: 380px;
+    display: block;
+    position: absolute;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 16px;
+    color: rgb(178, 186, 199);
+}
+#homepage .game-promo:hover {
+    color: rgb(255, 255, 255);
+}
+#homepage #home-game-wow .game-promo {
+    background-image: url("http://eu.battle.net/static/images/homepage/overwatch.png");
+    background-position-x: 0px;
+    background-position-y: -15px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+#homepage #home-game-sc2 .game-promo, #homepage #home-game-wow .game-promo, #homepage #home-game-d3 .game-promo, #homepage #home-game-hs .game-promo, #homepage #home-game-overwatch .game-promo, #homepage #home-game-heroes .game-promo {
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+    transition-delay: initial;
+    transition-property: opacity;
+}
+#homepage .game-promo .game-tip {
+    line-height: 3.6;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.clear {
+    clear: both;
+    display: block;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 169px;
+}

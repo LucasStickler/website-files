@@ -1,0 +1,70 @@
+
+/* Sidebar */
+#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    overflow-y: hidden;
+    background: rebeccapurple
+,
+;
+
+    opacity: 0.9;
+}
+
+/* Always take up entire screen */
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 50px;
+    border: red;
+}
+
+
+/* Change with of sidebar from 0 to 250px */
+#wrapper.menuDisplayed #sidebar-wrapper {
+    width: 250px;
+}
+
+/* Since we added left padding, we need to shrink the width by 250px */
+#wrapper.menuDisplayed #page-content-wrapper {
+    padding-left: 250px;
+}
+
+
+/* Sidebar styling - the entire ul list */
+.sidebar-nav {
+    padding: 15px;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.sidebar-nav li a:hover {
+    background: #16A085;
+}
+
+body {
+    background-size: 100%;
+    background: #cccccc url("https://overwatch-a.akamaihd.net/img/pages/buy/buy-bar-bg-b848f091bff6072bda7671311ce459727decd0281e85902958bc8d6b0b4d342875ad58385fa809928fd9b6bff0f7945217aed6e32581b6718a12fb99ab240f1c.jpg");
+    background-position: inherit;
+
+}
+
+table, th, td {
+    border: 1px solid palegoldenrod;
+}
+
+font {
+
+}
